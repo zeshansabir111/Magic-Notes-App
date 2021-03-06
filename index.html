@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Notes Application</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="notesUiContainer">
+        <nav class="notesNav"></nav>
+        <div class="notesIntroContainer">
+            <h2>Magic Notes Application</h2>
+            <p>Keep your <em>Notes</em> here.</p>
+        </div>
+        <main class="notesMain">
+            <!-- Notes Add Section -->
+            <section class="notesAddSection notesSection">
+                <form action="javascript:void(0)" class="notesForm">
+                    <fieldset class="notesFormGroups">
+                        <input type="text" class="notesAddTitle inputFields" placeholder="Note Title">
+                    </fieldset>
+                    <fieldset class="notesFormGroups">
+                        <textarea name="" id="" class="notesAddText inputFields" placeholder="Your Note Text"></textarea>
+                    </fieldset>
+                    <fieldset class="notesFormGroups">
+                        <input type="checkbox" id="confirmedImportant">
+                        <label for="confirmedImportant">Important</label>
+                        <button class="notesAddBtn btn btn--add">
+                            <i class="fa fa-plus"></i> Add Note
+                        </button>
+                    </fieldset>
+                </form>
+            </section>
+            <!-- Notes List Section -->
+            <section class="notesListSection notesSection">
+                <ul class="notesList">
+                    <!-- <li class="notesItem"> -->
+                        <!-- <details class="notesItemContainer"> -->
+                            <!-- <summary class="notesItemTitle">Front-end Web Development</summary> -->
+                            <!-- <p class="notesItemText"> -->
+                                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis. -->
+                            <!-- </p> -->
+                        <!-- </details> -->
+                        <!-- <button type="button" class="notesItemDelete btn btn--trash">Delete</button> -->
+                    <!-- </li> -->
+
+                    
+                </ul>
+            </section>
+        </main>
+    </div>
+    <!-- ----------------------------------------------------- -->
+    <!-- Javascript Files -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
